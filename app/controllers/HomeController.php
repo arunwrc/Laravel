@@ -20,4 +20,9 @@ class HomeController extends BaseController {
 		return View::make('index');
 	}
 
+	public function about_us()
+	{
+		return View::make('about');
+	}
+
 }

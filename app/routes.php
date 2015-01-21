@@ -16,3 +16,4 @@ Route::get('/', function()
 	return View::make('hello');
 });
 Route::get('home', 'HomeController@showWelcome');
+Route::get('about', 'HomeController@about_us');
